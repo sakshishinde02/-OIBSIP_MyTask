@@ -1,0 +1,9 @@
+package com.example.mytask;
+
+import android.content.DialogInterface;
+
+public interface OnDialogCloseListner {
+
+    void onDialogClose(DialogInterface dialogInterface);
+
+}
